@@ -47,7 +47,7 @@ public class Main extends Application
         TableColumn assignmentCol = new TableColumn("Assignment");  // creating a TableColumn object with title: "Assignment"
         assignmentCol.setMinWidth(90);
         // setting the column values from the StudentRecord object and keyword "assignment" attribute
-        assignmentCol.setCellValueFactory(new PropertyValueFactory<StudentRecord, String>("assignment"));
+        assignmentCol.setCellValueFactory(new PropertyValueFactory<StudentRecord, String>("assignments"));
 
         // ** Midterm column **
         TableColumn midtermCol = new TableColumn("Midterm");        // creating a TableColumn object with title: "Midterm"

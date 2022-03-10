@@ -58,7 +58,7 @@ public class StudentRecord
     }
 
     public void setAssignments(float assignments) {
-        this.assignment = assignments;
+        this.assignment = assignment;
     }
 
     public void setExam(float exam) {

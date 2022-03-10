@@ -71,7 +71,7 @@ set CLASSPATH=%APP_HOME%\lib\lab04.jar;%APP_HOME%\lib\javafx-controls-17.0.1-win
 
 
 @rem Execute lab04
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %LAB04_OPTS%  -classpath "%CLASSPATH%" StudentRecord %*
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %LAB04_OPTS%  -classpath "%CLASSPATH%" Main %*
 
 :end
 @rem End local scope for the variables with windows NT shell
